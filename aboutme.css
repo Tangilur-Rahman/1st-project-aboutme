@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    font-size: 14px;
+    font-weight: normal;
+}
+.container{
+    width:100%;
+    height: 100%;
+    position: relative;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow-y: auto;
+    background-color: slategrey;
+}
+.container .inner{
+    position: absolute;
+   
+    transform: translate(-50%,-50%);
+    top: 40%;
+   left: 40%;
+}
+.container .inner{
+    color: whitesmoke;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+ 
+   
+}
